@@ -66,6 +66,18 @@ public class Task {
     public Task() {
     }
 
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public void setCategory(String category) {
+        this.category = category;
+    }
+
     public void setDateCreated(Date dateCreated) {
         this.dateCreated = dateCreated;
     }
